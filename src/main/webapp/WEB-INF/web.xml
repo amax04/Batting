@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>otp</servlet-name>
+		<servlet-class>OtpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>otp</servlet-name>
+		<url-pattern>/OtpServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DepositServlet</servlet-name>
+		<servlet-class>com.DepositServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DepositServlet</servlet-name>
+		<url-pattern>/DepositServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
