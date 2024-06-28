@@ -12,7 +12,7 @@ public class OtpService {
     	
     	
         final String username = "cpn5betting@gmail.com"; // Set your Gmail username 
-        final String password = "ftnp hope csss dbhe"; // Set your Gmail password
+        final String password = "**** **** ****"; // Set your Gmail password
         
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
