@@ -29,8 +29,8 @@ public class LoginServlet extends HttpServlet {
 
             // Establish a connection
             String jdbcUrl = "jdbc:mysql://localhost:3306/admin_betting";
-            String username = "admin_root";
-            String password = "ET&NhwLo1W!j";
+            String username = "admin_root";//DB Username
+            String password = "******";//DB Password
             Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 
             // Execute a query
